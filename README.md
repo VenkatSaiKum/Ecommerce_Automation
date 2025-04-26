@@ -61,11 +61,14 @@ CapEcomm/ │ ├── src/test/java/ │ ├── Features/ # Cucumber featur
    git clone https://github.com/your-username/CapEcomm.git
    
 2. Navigate into the project directory:
+   ```bash
    cd CapEcomm
 
-3. Install Maven dependencies:
+4. Install Maven dependencies:
+   ```bash
    mvn clean install
    
-4. To execute the tests using TestNG:
+5. To execute the tests using TestNG:
+   ```bash
    mvn test
 
